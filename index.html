@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<style type="text/css">
+	
+
+	body {
+		background-color: rgb(102,102,102);
+
+		<!-- background-color: rgb(51, 102, 204);  Azul WoW en RGB -->
+	}
+
+	#inicio {
+		text-align: center;
+	}
+
+	#nosotres{
+		background-image: url(quienes1.jpg);
+		background-size: cover;
+		padding: 250px;
+		margin-top: 25px;
+	}
+
+	#Servicios{
+		background-color: white;
+		padding: 100px;
+		color: rgb(51, 102, 204);
+	}
+
+	#desc-serv{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		align-items: center;
+	}
+
+	#serv-img{
+		width: 400px;
+		
+	}
+
+	#serv-txt{
+		width: 400px;
+		text-align: justify;
+	}
+
+	#serv-mid{
+		width: 10px;
+		
+	}
+
+	#contacto{
+		
+		padding: 50px;
+		margin-top: 25px;
+		background-color: rgb(51, 102, 204);
+		
+
+	}
+
+	header{
+		background-image: url(bienvenida4.jpg);
+		background-size: cover;
+		padding: 250px;
+	}
+
+	h1{
+
+		font-size: 45px;
+		color: rgb(51, 102, 204); 
+		padding-top: 15px;
+		
+	}
+	h2 {
+		color: white;
+
+		text-align: center;
+
+		font-size: 30px;
+
+		<!-- background-color: rgb(102, 102, 102);   Gris WoW en RGB -->
+		
+	}
+
+
+	h3 {
+
+		color:  rgb(51, 102, 204);
+		<!-- background-color: white; -->
+
+	}
+
+	.smaller-image
+	{
+		width: 50px;
+		margin-right: 1100px;
+		margin-top: 10px;
+	}
+	
+	.smallest-image
+	{
+		width: 30px;
+		
+		
+	}
+	#navbar {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background-color: white;
+		width: 100%;
+	}
+
+	.left {
+		float: left;
+		width:50%;
+		height: 200px;
+		margin-left: 2%;
+		margin-top: 1%;
+		padding-bottom: 2px;
+		background-color: rgb(51, 102, 204)
+
+
+	}
+
+	.right {
+		float: right;
+		width:45%;
+		height: 200px;
+		margin-right: 2%;
+		margin-top: 1%;
+		padding-bottom: 2px;
+		background-color: rgb(51, 102, 204);
+	}
+
+	.center{
+		display: block;
+		float: right;
+		margin-top: 20px;
+		<!-- max-width: 100%; -->
+		<!-- height: auto; -->
+
+	}
+
+	
+
+</style>
+
+
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Win or Win</title>
+	
+</head>
+<body>
+	
+	<header>
+		<nav id="navbar">
+			<img class="smaller-image" src="isologo.jpg" alt="Isologo"> <a href="#inicio">Inicio</a> <a href="#Quienes_somos">Quienes Somos</a> <a href="#Servicios">Nuestros Servicios</a> <a href="#contacto">Contacto</a>
+			<hr>
+		</nav>
+
+		<h1 id="inicio"><strong>Bienvenido</strong></h1>
+	
+			<h2 style="color: black">Te estábamos esperando</h2>
+	
+	</header>
+	
+	<div id="nosotres">
+	<p>
+		<h2 id="Quienes_somos">Quienes Somos?</h2>
+		
+		<h3>Profesionales con vocación de servicio y espiritú emprendedor</h3>
+		En Win or Win, queremos que tu emprendimiento tenga éxito, logre competir y triunfar. Sabemos que nunca es fácil enfrentarte a empresas con grandes presupuestos y llenas de asesores, por eso, nuestro objetivo es ayudarte permitiéndote acceder a servicios profesionales de primer nivel.
+	</p>
+	
+	<main>
+	
+	</div>
+
+		<h2 id="Servicios">Servicios</h2>
+		
+		<!-- WIP Flexbox para cada servicio -->
+
+		<div id="desc-serv">	
+			<div id="serv-img"> <img src="sueldos.jpg" alt="sueldos"> </div>
+			
+			<div id="serv-mid"></div>
+
+			<div id="serv-txt">
+				<h3>Liquidación de Sueldos y Jornales</h3>
+				<p>Realizamos en forma integral la liquidación de sueldos de sus empleados desde la carga de novedades a la emisión de recibos de sueldo, libros legales y presentaciones de AFIP.</br>
+				Brindamos asesoría y actualización permanente en materia normativa y de aplicación de los Convenios Colectivos de Trabajo.</br>
+				Realizamos visitas a su establecimiento para evacuar dudas de los empleados.</p>
+			</div>
+		</div>
+
+		
+		<div id="desc-serv">
+			<div id="serv-img"> <img src="seleccion.jpg" alt="seleccion"> </div>		
+
+			<div id="serv-mid"></div>
+
+			<div id="serv-txt">
+				<h3>Búsqueda y Selección</h3>
+				<p>Encontrar a la persona indicada para cada puesto es parte esencial del éxito de cualquier empresa. En Win or Win entendemos que la clave reside en saber lo que se busca, y por eso nuestro proceso de búsqueda y selección comienza ayudándolos a definir el perfil y la necesidad de su empresa, para luego encontrar candidatos que cumplan con los requisitos.</p>
+			</div>
+		</div>
+
+
+		<div id="desc-serv">
+			<div id="serv-img"> <img src="descripciones.jpg" alt="descripciones"> </div>
+
+			<div id="serv-mid"></div>
+
+			<div id="serv-txt">
+				<h3>Descripciones de Puestos</h3>
+				La descripción de puestos es una de las herramientas más poderosas que podemos encontrar, nos ayudan a que cada empleado conozca la importancia de su rol, el objetivo de su puesto y las actividades a desarrollar. A su vez, permite a la organización distribuir eficientemente las funciones, evitando la duplicidad de tareas y generando procesos de trabajo simples y efectivos. Paradojalmente la mayoría de las pequeñas y medianas empresas no poseen descripciones de Puestos o las tienen desactualizadas, en Win or Win ayudamos a que esta herramienta alcance el protagonismo y poder necesarios.
+			</div>
+		</div>
+
+
+		<div id="desc-serv">
+			<div id="serv-img"> <img src="grafico.jpg" alt="Evaluaciones"> </div>
+
+			<div id="serv-mid"></div>
+
+			<div id="serv-txt">
+				<h3>Evaluaciones de Desempeño</h3>
+				Diseñamos, implementamos y acompañamos en la ejecución de sistemas de evaluación de desempeño de acuerdo a las particularidades de cada organización, que le permitan dar un adecuado feedback a sus empleados y de esta manera hacerlos más eficaces al mismo tiempo que se desarrollan profesionalmente.
+			</div>
+		</div>
+
+
+		<div id="desc-serv">
+			<div id="serv-img"> <img src="organigrama.jpg" alt="organigrama"> </div>
+
+			<div id="serv-mid"></div>
+
+			<div id="serv-txt">
+				<h3>Análisis Organizacional</h3>
+				Tener a la persona indicada para cada puesto es muy importante, pero antes de eso es fundamental tener definidos los puestos necesarios para afrontar nuestros objetivos. De eso se trata el Análisis Organizacional que ofrecemos, poniendo el foco en el personal, se desarrolla el organigrama con los puestos y sus respectivas definiciones de funciones que lleven a su empresa a trabajar de la forma más eficiente y con calidad.
+			</div>
+		</div>
+
+
+		<div id="desc-serv">
+			<div id="serv-img"> <img src="grafico.jpg" alt="grafico"> </div>
+			
+			<div id="serv-mid"></div>
+
+			<div id="serv-txt">
+				<h3>Compensaciones y Beneficios</h3>
+				<ul>
+					<li>Armamos la estructura de compensaciones cuidando la equidad interna y competitividad externa.</li>
+					<li>Diseñamos paquetes de beneficios de acuerdo a las necesidades de cada organización.</li>
+					<li>Te ayudamos a participar de encuestas de remuneraciones por bajo costo.</li>
+				</ul>
+			</div>
+		</div>
+		
+
+		<div id="desc-serv">
+			<div id="serv-img"> <img src="grafico.jpg" alt="grafico"> </div>
+
+			<div id="serv-mid"></div>
+
+			<div id="serv-txt">
+				<h3>Comunicación Interna</h3>
+				Ayudamos a implementar los canales de comunicación y los mensajes para garantizar que todos los miembros de su organización estén al tanto de las novedades.
+			</div>	
+		</div>
+	
+	</main>
+	
+	<div id="contacto">
+		<p>
+			<h2>Ponete en Contacto</h2>
+		</p>
+		
+		<div id="desc-serv">
+			<div id="serv-img">
+				Podes copletar el formulario de contacto de al lado, mandarnos un mail, llamarnos o escribirnos un Whatsapp, elegí la forma que mejor se ajuste a tus necesidades. <br>
+
+				<ul>
+					<li><img src= "Whatsapp.jpg" alt="logo Whatsapp" class="smallest-image"> 113-682-4358</li>
+					<li><img src= "mail2.png" alt="info@winorwin.com.ar" class="smallest-image">info@winorwin.com.ar</li>
+				</ul>
+			</div>
+
+			<form action="" ="/Enviar datos" id="serv-txt">
+				<input type="text" placeholder="Nombre" required> </br>
+				<input type="text" placeholder="Nombre de tu Emprendimiento"> </br>
+				<input type="text" placeholder="mail"> </br>
+				<input type="text" placeholder="Telefono"> </br>
+				<input type="text" placeholder="Mensaje"> </br>
+				<button type="Submit">Enviar</button>
+			</form>
+		</div>	
+	</div>
+
+	<footer><p> &copy;2019 Win or Win</p></footer>
+
+</body>
+</html>
